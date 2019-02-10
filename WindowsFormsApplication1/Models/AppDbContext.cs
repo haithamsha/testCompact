@@ -9,6 +9,12 @@ namespace WindowsFormsApplication1.Models
 {
     public class AppDbContext:DbContext
     {
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //   modelBuilder.Entity<Product>()
+        //        .Property(p => p.Amount)
+        //        .
+        //}
         public AppDbContext():base("TrDbContext")
         {
 

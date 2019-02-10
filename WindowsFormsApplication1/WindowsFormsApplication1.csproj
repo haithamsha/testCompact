@@ -77,6 +77,10 @@
     <Compile Include="Migrations\201902102028193_add_cat_table.Designer.cs">
       <DependentUpon>201902102028193_add_cat_table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902102045043__addmountCol.cs" />
+    <Compile Include="Migrations\201902102045043__addmountCol.Designer.cs">
+      <DependentUpon>201902102045043__addmountCol.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppDbContext.cs" />
     <Compile Include="Models\Category.cs" />
@@ -91,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902102028193_add_cat_table.resx">
       <DependentUpon>201902102028193_add_cat_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902102045043__addmountCol.resx">
+      <DependentUpon>201902102045043__addmountCol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

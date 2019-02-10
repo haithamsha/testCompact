@@ -15,3 +15,4 @@ E:\haithamsha\Haitham\tuts\automationtest\WindowsFormsApplication1\WindowsFormsA
 E:\haithamsha\Haitham\tuts\automationtest\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 E:\haithamsha\Haitham\tuts\automationtest\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Migrations._init.resources
 E:\haithamsha\Haitham\tuts\automationtest\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Migrations.add_cat_table.resources
+E:\haithamsha\Haitham\tuts\automationtest\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Migrations._addmountCol.resources

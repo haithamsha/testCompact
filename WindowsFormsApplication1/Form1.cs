@@ -22,7 +22,8 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             AppDbContext _db = new AppDbContext();
-            _db.products.Add(new Product { Price = 4, ProductName = "Product 1" });
+            var cat = _db.Categories.FirstOrDefault();
+            _db.products.Add(new Product { Price = 4, ProductName = "Product 1", Category = cat });
             _db.SaveChanges();
 
             dataGridView1.DataSource = productList();
@@ -47,6 +48,18 @@ namespace WindowsFormsApplication1
             _db.Categories.Add(new Category { Name= "category1", CreationDate = DateTime.Now });
             _db.SaveChanges();
             MessageBox.Show("done");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AppDbContext _db = new AppDbContext();
+
+            foreach (var item in _db.products)
+            {
+                _db.products.Remove(item);
+            }
+            MessageBox.Show("done");
+
         }
     }
 }
